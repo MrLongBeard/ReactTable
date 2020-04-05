@@ -87,7 +87,8 @@ export default App;
 const Search =({onChange,searchTerm,list,value,children})=>{
 
     return(
-        <div>
+      <div>
+        {console.log('hello')}
         <span>
           <form>
             {children}
